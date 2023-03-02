@@ -19,7 +19,7 @@ function Footer() {
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
             <i className="fa-brands fa-linkedin"></i>
-            <span class="sr-only">LinkedIn page</span>
+            <span className="sr-only">LinkedIn page</span>
           </a>
           <a
             href="https://github.com/mariea1022"
