@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-// import Header from "./Header";
-import Footer from "./Footer";
-
+import Navigation from "./Navigation";
 import AboutMe from "./pages/AboutMe";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
-import Navigation from "./Navigation";
+
+import Footer from "./Footer";
 
 function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState("AboutMe");
