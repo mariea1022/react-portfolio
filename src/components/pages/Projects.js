@@ -1,10 +1,20 @@
 import React from "react";
+import DinnerAndDrinks from "../../assets/images/Dinner&Drinks.png"
+import Vapour from "../../assets/images/Vapour.png"
+import NoteTaker from "../../assets/images/NoteTaker.png"
+import CodingQuiz from "../../assets/images/CodingQuiz.png"
+import WeatherDashboard from "../../assets/images/WeatherDashboard.png"
+import WorkDayScheduler from "../../assets/images/WorkDayScheduler.png"
 
 function Projects() {
   return (
     <div className="h-screen flex place-items-center">
       <div className="flex flex-wrap justify-center">
-        <div className="max-w-sm bg-white border border-gray-200 shadow dark:bg-gradient-to-r from-gray-900 to-gray-600 dark:border-gray-700 dark:border-gray-700 p-3 m-6">
+        <div className="max-w-sm border border-gray-200 shadow dark:border-gray-700 p-3 m-6"
+          style={{
+            backgroundImage: `url(${DinnerAndDrinks})`,
+            // objectFit: 'contain',
+          }}>
           <div className="p-5">
             <a href="AboutMe">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -16,14 +26,17 @@ function Projects() {
               meal and cocktail recipes.
             </p>
             <a
-              href="#aboutme"
+              href="https://github.com/sely1724/dinner-and-drinks"
               class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             >
               GitHub Repo
             </a>
           </div>
         </div>
-        <div className="max-w-sm bg-white border border-gray-200 shadow dark:bg-gradient-to-r from-gray-900 to-gray-600 dark:border-gray-700 dark:border-gray-700 p-3 m-6">
+        <div className="max-w-sm bg-white border border-gray-200 shadow dark:border-gray-700 p-3 m-6"
+        style={{
+            backgroundImage: `url(${Vapour})`,
+          }}>
           <div className="p-5">
             <a href="AboutMe">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -35,79 +48,91 @@ function Projects() {
               generates random achievement games for the user to play.
             </p>
             <a
-              href="#aboutme"
+              href="https://github.com/mariea1022/Steam-Achievement-Picker"
               class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             >
               GitHub Repo
             </a>
           </div>
         </div>
-        <div className="max-w-sm bg-white border border-gray-200 shadow dark:bg-gradient-to-r from-gray-900 to-gray-600 dark:border-gray-700 dark:border-gray-700 p-3 m-6">
+        <div className="max-w-sm bg-white border border-gray-200 shadow dark:border-gray-700 p-3 m-6"
+        style={{
+            backgroundImage: `url(${NoteTaker})`,
+          }}>
           <div className="p-5">
             <a href="AboutMe">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Dinner and Drinks
+                Note Taker
               </h5>
             </a>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              An application that generates random meal and cocktail recipes.
+              Need help getting organized? This app allows to create and delete notes.
             </p>
             <a
-              href="#aboutme"
+              href="https://github.com/mariea1022/note-taker"
               class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             >
               GitHub Repo
             </a>
           </div>
         </div>
-        <div className="max-w-sm bg-white border border-gray-200 shadow dark:bg-gradient-to-r from-gray-900 to-gray-600 dark:border-gray-700 dark:border-gray-700 p-3 m-6">
+        <div className="max-w-sm bg-white border border-gray-200 shadow dark:border-gray-700 p-3 m-6"
+        style={{
+            backgroundImage: `url(${CodingQuiz})`,
+          }}>
           <div className="p-5">
             <a href="AboutMe">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Dinner and Drinks
+                Coding Quiz
               </h5>
             </a>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              An application that generates random meal and cocktail recipes.
+              Up for a little brain quiz? This is a timed coding quiz on a few different programming topics.
             </p>
             <a
-              href="#aboutme"
+              href="https://github.com/mariea1022/timed-coding-quiz"
               class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             >
               GitHub Repo
             </a>
           </div>
         </div>
-        <div className="max-w-sm bg-white border border-gray-200 shadow dark:bg-gradient-to-r from-gray-900 to-gray-600 dark:border-gray-700 p-3 m-6">
+        <div className="max-w-sm bg-white border border-gray-200 shadow dark:border-gray-700 p-3 m-6"
+        style={{
+            backgroundImage: `url(${WeatherDashboard})`,
+          }}>
           <div className="p-5">
             <a href="AboutMe">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Dinner and Drinks
+                Weather Dashboard
               </h5>
             </a>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              An application that generates random meal and cocktail recipes.
+              Curious about the weather for your trip? Use this app to get a 5 day forecast of a city.
             </p>
             <a
-              href="#aboutme"
+              href="https://github.com/mariea1022/weather-dashboard"
               class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             >
               GitHub Repo
             </a>
           </div>
         </div>
-        <div className="max-w-sm bg-white border border-gray-200 shadow dark:bg-gradient-to-r from-gray-900 to-gray-600 dark:border-gray-700 dark:border-gray-700 p-3 m-6">
+        <div className="max-w-sm bg-white border border-gray-200 shadow dark:border-gray-700 p-3 m-6"
+        style={{
+            backgroundImage: `url(${WorkDayScheduler})`,
+          }}>
           <div className="p-5">
             <a href="AboutMe">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Dinner and Drinks
+                Work Day Scheduler
               </h5>
             </a>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              An application that generates random meal and cocktail recipes.
+              Tired of Google Calendar? Use this app to track your work day schedule!
             </p>
             <a
-              href="#aboutme"
+              href="https://github.com/mariea1022/work-day-scheduler"
               class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             >
               GitHub Repo
