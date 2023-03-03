@@ -1,10 +1,7 @@
 import React from "react";
-import Navigation from "./Navigation";
 
 function Header() {
-  return (
-        <Navigation></Navigation>
-  );
+  return <div className="self-center font-medium dark:text-white text-xl pl-2">Marie Lewis</div>;
 }
 
 export default Header;
