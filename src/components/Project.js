@@ -1,20 +1,11 @@
 import React from "react";
+// import Projects here?
 
 function Project(props) {
   console.log(props)
   return (
-    <div className="projects-card">
-      <div className="image-card" id={props.id}></div>
-      <div className="information-card">
-        <h5>{props.name}</h5>
-        <small>
-          <a href={props.github}>Github</a>
-        </small>
-        <br />
-        <small>
-          <a href={props.website}>Website</a>
-        </small>
-      </div>
+    <div>
+      
     </div>
   );
 }
