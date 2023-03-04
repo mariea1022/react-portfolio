@@ -49,10 +49,14 @@ function Contact() {
   return (
     <div className="h-screen flex justify-center bg-white dark:bg-gray-800 ">
       <form className="w-1/2">
+        <h2 class="mt-8 mb-5 text-center text-3xl font-bold dark:text-white">
+          Contact
+        </h2>
+
         <div className="mb-6 pt-25">
           <label
             for="name"
-            className="block mt-20 mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
             Your Name
           </label>

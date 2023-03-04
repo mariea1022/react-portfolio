@@ -9,6 +9,7 @@ function AboutMe() {
       }}
     >
       <div className="w-full text-center">
+      <h1 class="mb-6 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">A bit about <mark class="px-2 text-white bg-blue-600 rounded dark:bg-blue-500">ME...</mark></h1>
         <p className="text-4xl mb-5 font-bold leading-tight tracking-tight text-white underline decoration-sky-500">
           Hi there! 👋 My name is Marie Lewis.
         </p>

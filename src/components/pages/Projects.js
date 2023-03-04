@@ -8,9 +8,12 @@ import WorkDayScheduler from "../../assets/images/WorkDayScheduler.png"
 
 function Projects() {
   return (
-    <div className="h-screen flex place-items-center">
+    <div className="h-screen flex flex-col place-items-center">
+      <h2 className="text-3xl mt-5 mb-8 font-bold underline underline-offset-8 decoration-8 decoration-blue-500 dark:decoration-blue-500">Projects</h2>
+    <div>
+
       <div className="flex flex-wrap justify-center">
-        <div className="max-w-sm border border-gray-200 shadow dark:border-gray-700 p-3 m-6"
+        <div className="max-w-sm border border-gray-200 shadow dark:border-gray-700 p-2 m-2"
           style={{
             backgroundImage: `url(${DinnerAndDrinks})`,
             // objectFit: 'contain',
@@ -33,7 +36,7 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="max-w-sm bg-white border border-gray-200 shadow dark:border-gray-700 p-3 m-6"
+        <div className="max-w-sm bg-white border border-gray-200 shadow dark:border-gray-700 p-2 m-2"
         style={{
             backgroundImage: `url(${Vapour})`,
           }}>
@@ -55,7 +58,7 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="max-w-sm bg-white border border-gray-200 shadow dark:border-gray-700 p-3 m-6"
+        <div className="max-w-sm bg-white border border-gray-200 shadow dark:border-gray-700 p-2 m-2"
         style={{
             backgroundImage: `url(${NoteTaker})`,
           }}>
@@ -76,7 +79,7 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="max-w-sm bg-white border border-gray-200 shadow dark:border-gray-700 p-3 m-6"
+        <div className="max-w-sm bg-white border border-gray-200 shadow dark:border-gray-700 p-2 m-2"
         style={{
             backgroundImage: `url(${CodingQuiz})`,
           }}>
@@ -97,7 +100,7 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="max-w-sm bg-white border border-gray-200 shadow dark:border-gray-700 p-3 m-6"
+        <div className="max-w-sm bg-white border border-gray-200 shadow dark:border-gray-700 p-2 m-2"
         style={{
             backgroundImage: `url(${WeatherDashboard})`,
           }}>
@@ -118,7 +121,7 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="max-w-sm bg-white border border-gray-200 shadow dark:border-gray-700 p-3 m-6"
+        <div className="max-w-sm bg-white border border-gray-200 shadow dark:border-gray-700 p-2 m-2"
         style={{
             backgroundImage: `url(${WorkDayScheduler})`,
           }}>
@@ -140,6 +143,7 @@ function Projects() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
