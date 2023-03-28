@@ -72,12 +72,12 @@ function Projects() {
             <div className="p-5">
               <a href="AboutMe">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  Note Taker
+                  HackerFit
                 </h5>
               </a>
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Need help getting organized? This app allows to create and
-                delete notes.
+                Want to better track your gym workouts? This app allows to create routines and
+                track sets/reps.
               </p>
               <a
                 href="https://github.com/mtownsend509/HackerFit"
